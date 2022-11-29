@@ -375,6 +375,65 @@
 						"a gridlock station at Hyperion"//hey, that's CC!
 						)
 
+/datum/lore/organization/gato
+	name = "Gato Industrial Concern"
+	short_name = "Gato"
+	desc = "Gato Industrial Concern is a megacorporation based on Earth which specializes in producing and selling consumer products of all kinds. \
+	Unlike their main rival, Nanotrasen, Gato seems to put public relations first and interplanetary dominion second, but still are seen \
+	with distrust by many, with rumors of inhumane and esoteric experimentation efforts propagating across less known sites on the Web. \
+	Nevertheless, Gato has a prolific presence. If a planet has a market economy and over a million people, expect Gato to be around. \
+	Currently, the Space Megacorporate Age that traiblazed by companies like Gato and Nanotrasen has come into something of a dark age, \
+	as a Syndicate of many organizations, smaller corporations, and institutions has formed to oppose their continued growth and success.  \
+	history = ""
+	work = "Consumer Goods Production, Food Production, Food Processing, Retail, Pharmaceuticals, Research and Development"
+	headquarters = "Gato Corporate Headquarters, Earth"
+	motto = "To Satisfy All Needs"
+
+	ship_prefixes = list("GFV" = "freight", "GRS" = "rescue", "GTS" = "transportation", "GPRV" = "diplomatic", "GRDV" = "research", "GER" = "energy relay")
+	ship_names = list(
+		"Illumination",
+		"Borealis",
+		"Hadron",
+		"Bohrs",
+		"Nitro",
+		"Restoration",
+		"Harvest Moon",
+		"Autumn",
+		"Flare",
+		"Firefly",
+		"Courser",
+		"Danger Close",
+		"Wonka's Dream",
+		"Harmony",
+		"Ensemble",
+		"Rossi's Revenge"
+		)
+
+	autogenerate_destination_names = FALSE
+	destination_names = list(
+						"GPRV Wonderland",
+						"a gridlock station at Kestrel Ceti",
+						"a waypoint gate at Andromeda Pass",
+						"a ringworld at Incandesce Seconda",
+						"an archaeological site at Vesta Prime",
+						"a reported anomaly at Orlando",
+						"Salis Major orbit",
+						"a megastructure at Kappa Orion",
+						"Radiant Hearth",
+						"a dockyard at Procella, Tremora",
+						"sector command at Vivida Laetus",
+						"space-time fragmentation at RR Lyra",
+						"a city-station at Kappa Andromedae",
+						"a city-station at New Verdun",
+						"a city-station at Alpheratz",
+						"the rings of Layenia",
+						"Dzar metalworking at Loto",
+						"a classified location in an anomaly zone",
+						"a developing colony at Timber Hearth",
+						"a distress signal on the Galactic Rim",
+						"Gato Periphery Command Station 15"
+						)
+
 /datum/lore/organization/dzar
 	name = "Dzar Underworks Metalworking"
 	short_name = "Dzar"

@@ -63,12 +63,14 @@
 			"<span class='userdanger'>[user] fed you the contents of [src].</span>")
 		log_combat(user, M, "fed", reagents.log_list())
 
-	var/fraction = min(gulp_amount/reagents.total_volume, 1)
+	var/fraction = min(gulp_size/reagents.total_volume, 1)
 	checkLiked(fraction, M)
 	reagents.reaction(M, INGEST, fraction)
-	reagents.trans_to(M, gulp_amount, transfered_by = user)
+	reagents.trans_to(M, gulp_size)
+	M.fullness += min(gulp_size, reagents.total_volume) // GS13 drinks will fill your stomach
 	playsound(M.loc,'sound/items/drink.ogg', rand(10,50), 1)
 	return 1
+
 
 /obj/item/reagent_containers/food/drinks/afterattack(obj/target, mob/user , proximity)
 	. = ..()

@@ -76,7 +76,7 @@ GLOBAL_VAR_INIT(vending_machines, list(
 	/obj/machinery/vending/clothing,
 	/obj/machinery/vending/medical,
 	/obj/machinery/vending/wallmed,
-	/obj/machinery/vending/kink,
+//	/obj/machinery/vending/kink,
 	/obj/machinery/vending/mealdor,
 	/obj/machinery/vending/gato
 ))
